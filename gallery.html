@@ -24,33 +24,7 @@
             document.getElementById('bdcake').src=cakeImageArray[imageIndex];
         }
     </script>
-    <style>
-    .gallery{
-        position: absolute;
-        bottom: 180px;
-        margin-left: 550px;}
-        
-    .sidebar>a{
-        position: relative;
-        margin-left: 300px;
-        top: 120px;
-        text-decoration: none;
-        color: #42210b;
-        font-family: 'Roboto: 400', sans-serif;
-        line-height: 50px;
-        }
-        .sidebar>a:active{
-    color: white;
-    'Roboto: 700', sans-serif;}
-        #pink{
-        background-color: rgba(196,77,116,0.5);
-        margin-left: 250px;
-        margin-right: 250px;
-        padding-bottom: 300px;
-        }
-            
-       
-    </style>
+    
 </head>
     <body>
         <h1>Order the best homemade cake </h1>
@@ -70,9 +44,9 @@
         <a href="gallery4.html">Memorial cakes</a>
         </div>
         <div class="gallery">
-        <button id="previous" onClick="javascript:previous_pic()"><img src="arrowleft.png" /></button>
+        <img class="arrows" src="arrowleft.png" id="previous" onClick="javascript:previous_pic()"/>
         <img id="bdcake" src="dzdienas/dzd1.png" alt="wedding cake" title="Wedding cake-1">
-        <button id="next" onClick="javascript:next_pic()"><img src="arrowright.png" /></button>
+        <img class="arrows" src="arrowright.png" id="next" onClick="javascript:next_pic()"/>
         </div>
         </div>
         <footer>
@@ -80,7 +54,7 @@
             <div class="icons">
             <a href="aboutme.html"><img src="contactswhite.png" width="22" height="25"></a>
             <a href="https://www.google.com/maps/place/56%C2%B056'53.7%22N+24%C2%B021'30.0%22E/@56.9482489,24.356143,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d56.948246!4d24.358337?hl=en"><img src="locationwhite.png" width="14" height="25"></a>
-                <a href="order.html"><img src="calendarwhite.png" width="22" height="25"></a></div>
+                <a href="order.html#calendar"><img src="calendarwhite.png" width="22" height="25"></a></div>
         </footer> 
 
     </body>
